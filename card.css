@@ -1,0 +1,114 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    /*background-color: black;*/
+}
+.navbar{
+    margin-bottom: 50px;
+}
+.logo img{
+    width: 150px;
+    margin-right: 20px;
+}
+.email{
+    background-color: black;
+    color: white;
+}
+.password{
+    background-color: black;
+    color: white;
+}
+
+.accedi{
+    color: white;
+    background-color: green;
+}
+
+.titolo-pagina{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.card{
+    background-color: rgb(35, 35, 35);
+    color:white;
+}
+.card:hover{
+    box-shadow: 2px 2px 0 2px white;
+    opacity: 0.6;
+}
+.card img{
+    border-radius: 25px;
+    
+}
+.container-fluid{
+    margin-bottom: 60px;
+    
+}
+.album-del-momento{
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 25px;
+}
+.brani-preferiti{
+    display: flex;
+}
+.display-foto-album{
+    width: 700px;
+    height: 700px;
+    margin-left: 20px;
+}
+.table{
+    margin-left: 20px;
+    background-color: green;
+    height: 40px;
+}
+.hall-of-shame-titolo{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.hall-of-shame{
+    display: flex;
+    margin-bottom: 50px; 
+}
+.jumbotron h3{
+    margin-left: 20px;  
+}
+.jumbotron p{
+    margin-left: 10px;
+}
+
+.peggiori-brani{
+    width: 700px;
+    height: 700px;
+    margin-left: 20px;
+}
+.podcast img{
+    height: 200px;
+    width: 200px;
+    
+
+}
+
+.totale-album{
+    text-align: center;
+    height: 30px;
+    color: black;
+    margin-top: 15px;
+}
+
+.card-body-footer {
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card-header-footer{
+    text-align: center;
+}
+.card-body-footer p{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(0, 159, 27);
+    border-radius: 25px;
+}

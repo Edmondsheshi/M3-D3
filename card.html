@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="card.css">
+    <title>Document</title>
+
+
+</head>
+    <body class="bg-black text-white">
+
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="logo" href="https://open.spotify.com/" ><img src="spotify-logo-1920x1080-min.jpg" alt=""></a>
+            <a class="navbar-brand text-white" href="#">Spotify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                <li class="nav-item">
+                    <a class="nav-link active  text-white" aria-current="page" href="#">Musica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Preferiti</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white">Podcast</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Altro
+                    </a>
+                    <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                    <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white " href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                </ul>
+                
+                <div class="accesso-utente">
+                    <form action="/action_page.php">
+                        <input class="email" type="text" placeholder="Username" name="username">
+                        <input class="password" type="text" placeholder="Password" name="psw">
+                        <button class="accedi" type="submit">Login</button>
+                    </form>
+                </div>                
+            </div>
+            </div>
+        </nav>
+
+    
+        <div class="titolo-pagina">
+            <h1>Buonasera</h1>
+            <h3>Riprendi con la tua Musica</h3>
+        </div>
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-lg-3"> 
+                        <div class="card">
+                            <img src="loveless.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-text">Loveless - MIDDLE OF THE NIGHT</h5>
+                                <p>taken from the album " End of an era" 9 Tracks, 2022</p>
+                                <p>album play duration 28 min 54 sec</p>
+                                <p>Rock n roll</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3"> 
+                        <div class="card">
+                            <img src="green day.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3 class="card-text">Holiday/Buolevard of Broken Dreams</h3>
+                                <p>taken from the album "America idiot" 9 Tracks, 2004</p>
+                                <p>album play duration 57 min 23 sec</p>
+                                <p>Alternative Rock/Pop punk</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3"> 
+                        <div class="card">
+                            <img src="caskets.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                            <h3 class="card-text">Drowned in Emotion</h3>
+                            <p>taken from the album "Lost Souls" 11 Tracks, 2021</p>
+                            <p>album play duration 45 min 36 sec</p>
+                            <p>Rock n roll</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-3"> 
+                        <div class="card">
+                            <img src="linkin park.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h3 class="card-text">Numb</h3>
+                                <p>taken from the album " Meteora" 13 Tracks, 2003</p>
+                                <p>album play duration 36 min 38 sec</p>
+                                <p>Rap rock / Alternative metal / Metal</p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+        
+            <div class="album-del-momento">
+                <h1>Brani preferiti</h1>
+            </div>
+        
+
+            <div class="brani-preferiti">
+                <div class="display-foto-album">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="shiva.webp" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="lazza.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="santeria.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>    
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Artista</th>
+                        <th scope="col">Album</th>
+                        <th scope="col">Brano</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Shiva</td>
+                        <td>Milano demons</td>
+                        <td>Non lo sai</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Lazza</td>
+                        <td>Sirio</td>
+                        <td>Panico</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Gue pequeno & Marracash</td>
+                        <td>Santeria</td>
+                        <td>Insta lova</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="hall-of-shame-titolo">
+                <h3>Hall of shame</h3>
+            </div>
+
+        <div class="hall-of-shame">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3"> 
+                    <div class="card">
+                        <img src="Tiziano-Ferro.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-text">Tiziano ferro</h3>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-6 col-md-4 col-lg-3"> 
+                    <div class="card">
+                        <img src="maneskin.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-text">Maneskin</h3>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="col-6 col-md-4 col-lg-3"> 
+                    <div class="card">
+                        <img src="Marco-Mengoni.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-text">Marco mengoni</h3>
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-6 col-md-4 col-lg-3"> 
+                    <div class="card">
+                        <img src="eros-ramazzotti.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-text">Eros ramazzotti</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="jumbo">
+        <div class="jumbotron mb-5">
+            <h3 class="display-4">Musica senza limiti</h3>
+            <hr class="my-4">
+            <p>Spotify è un servizio di riproduzione digitale di musica, podcast e video, <br>
+                con accesso immediato a milioni di brani e altri contenuti di autori provenienti da tutto il mondo.</p>
+            <p>Le funzioni di base, come la riproduzione musicale, sono completamente gratuite,<br>
+                ma puoi anche scegliere di effettuare l'upgrade a Spotify Premium.</p>
+            
+        </div>
+    </div>
+
+        <div class="podcast mb-5" >
+            <a href="https://open.spotify.com/show/3D60XpwZz0mddxRLV7ChON">
+                <img src="ab6765630000ba8aef9c1c6c0a847f45d6224b64.jpeg" alt="">
+            </a>
+            <a href="https://open.spotify.com/show/4I2H2YHJQnGO4Aynrw1ToZ">
+                <img src="ab6765630000ba8aa7ff7d2bf252aa97808975f0.jpeg" alt="">
+            </a>
+            <a href="https://open.spotify.com/show/16dmTJvMre4YDTUYpuJtuZ">
+                <img src="264x264.jpg" alt="">
+            </a>
+            <a href="https://open.spotify.com/show/0S424dc0qoN4W0V9g63cQM">
+                <img src="264x264 (1).jpg" alt="">
+            </a>
+            <a href="https://open.spotify.com/show/1HeVZSRqmiKzpBYp7k8utS">
+                <img src="ab6765630000ba8a95c4f34a6dd73f39cf2d839b.jpeg" alt="">
+            </a>
+            <a href="https://open.spotify.com/show/11U1R9HX00E554sFvhvLY9">
+                <img src="264x264 (2).jpg" alt="">
+            </a>
+        </div>
+
+
+        <footer>
+            <div class="card-footer">
+                <div class="card-header-footer ">
+                Support
+                </div>
+                <div class="informazioni">
+                    <p class="totale-album"></p>
+                </div>
+                <div class="card-body-footer">
+                <p class="card-title"><i class="ri-instagram-line">Instangram</i></p>
+                <p class="card-text"><i class="ri-twitter-line">Twitter</i></p>
+                <p class="card-text"><i class="ri-facebook-fill"><span>Facebook</span></i></i></p>                
+                </div>
+            </div>
+        </footer>
+
+<script src="boostrap/js/bootstrap.js"></script>
+<script src="card.js"></script>
+    </body>
+</html>
